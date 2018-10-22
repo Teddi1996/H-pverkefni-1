@@ -1,0 +1,14 @@
+{
+  "name": "hopverkefni1",
+  "version": "1.0.0",
+  "description": "Verkefnið felst í því að smíða vef eftir forskrift.",
+  "main": "index.js",
+  "scripts": {
+    "sass-watch": "node-sass --source-map-embed --watch *.scss --recursive styles.css" 
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.4"
+  }
+}
