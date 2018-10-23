@@ -1,0 +1,46 @@
+@import "config.scss";
+
+.forsida__row{
+    display: flex;
+    flex-direction: column;
+
+    max-width: $maxW;
+    margin: 10px auto;
+
+    background-color: $white;
+}
+
+.forsida__col{
+    display: flex;
+    flex-flow: column;
+
+    width: 100%;
+    justify-content: center;
+    margin-left: 15px;
+    margin: 10px;
+}
+
+.forsida__text{
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.forsida__col h2{
+    margin: 0px;
+}
+
+.forsida__button{
+    margin: 20px auto;
+}
+
+.forsida__button button{
+    width: 250px;
+    height: 40px;  
+    border: none;
+    border-radius: 5px;
+    background-color: $lightRed; 
+}
+
+.reverse{
+    flex-flow: column;
+}

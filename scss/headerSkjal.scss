@@ -1,0 +1,53 @@
+@import "config.scss";
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: $lightGreen;
+}
+.header__valmynd{
+    display: flex;
+    flex-flow: row wrap;
+
+    width: 50%;
+    justify-content: center;
+
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+.header__tags{
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.header__tag{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.header__tag a{
+    color: $black;
+    text-decoration: none;
+}
+
+.header__cart{
+    display: flex;
+    flex-grow: 0;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__cart img{
+    max-width: 20px;
+    margin-right: 5px;
+}
+
+.header__cart a{
+    text-decoration: none;
+}
+

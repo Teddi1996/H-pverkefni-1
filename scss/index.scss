@@ -1,62 +1,19 @@
-@import "scss/config.scss";
+@import "config.scss";
+@import "footerSkjal.scss";
+@import "headerSkjal.scss";
+@import "forsidaSkjal.scss";
+
 html {
     box-sizing: border-box;
     font-family: 'Open Sans', helvetica, arial, sans-serif;
     font-size: 16px;
     max-width: $maxW;
+    background-color: $white;
   }
 
 img{
     width: 100%;
     height: 100%;
-}
-header{
-    display: flex;
-    flex-direction: column;
-    background-color: $lightGreen;
-}
-.header__valmynd{
-    display: flex;
-    flex-flow: row wrap;
-
-    width: 100%;
-    justify-content: center;
-
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-}
-.header__tags{
-    display: flex;
-    list-style: none;
-    margin-top: 10px;
-}
-
-.header__tag{
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-right: 20px;
-}
-
-.header__tag a{
-    color: $black;
-}
-
-.header__karfa{
-    display: flex;
-    flex-grow: 0;
-    margin-top: 10px;
-    justify-content: end;
-}
-
-.header__karfa img{
-    max-width: 20px;
-    margin-right: 5px;
-}
-
-.header__karfa a span{
-    margin-left: 2px; // þarf þetta? kannski taka út
 }
 
 .underline{
@@ -65,7 +22,7 @@ header{
 
 h1{
     font-family: Oswald, Verdana, serif;
-    font-size: 2.5em;
+    font-size: 4em;
 
     margin: 20px auto;
 }
@@ -80,9 +37,4 @@ h2{
 h3{
     font-family: Oswald, Verdana, serif;
     margin-top: 15px;
-}
-
-footer{
-    display: flex;
-    background-color: $lightRed;
 }
