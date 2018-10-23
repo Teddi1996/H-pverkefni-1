@@ -1,7 +1,9 @@
+@import "scss/config.scss";
 html {
     box-sizing: border-box;
     font-family: 'Open Sans', helvetica, arial, sans-serif;
     font-size: 16px;
+    max-width: $maxW;
   }
 
 img{
@@ -11,14 +13,15 @@ img{
 header{
     display: flex;
     flex-direction: column;
-    background-color: green;
+    background-color: $lightGreen;
 }
 .header__valmynd{
     display: flex;
     flex-flow: row wrap;
-    widows: 100%;
-    max-width: 1440px;
+
+    width: 100%;
     justify-content: center;
+
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -36,9 +39,50 @@ header{
     margin-right: 20px;
 }
 
+.header__tag a{
+    color: $black;
+}
+
 .header__karfa{
     display: flex;
     flex-grow: 0;
     margin-top: 10px;
     justify-content: end;
+}
+
+.header__karfa img{
+    max-width: 20px;
+    margin-right: 5px;
+}
+
+.header__karfa a span{
+    margin-left: 2px; // þarf þetta? kannski taka út
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+h1{
+    font-family: Oswald, Verdana, serif;
+    font-size: 2.5em;
+
+    margin: 20px auto;
+}
+
+h2{
+    font-family: Oswald, Verdana, serif;
+    font-size: 1.5em;
+
+    margin: 20px;
+}
+
+h3{
+    font-family: Oswald, Verdana, serif;
+    margin-top: 15px;
+}
+
+footer{
+    display: flex;
+    background-color: $lightRed;
 }
