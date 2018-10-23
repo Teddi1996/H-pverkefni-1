@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', helvetica, arial, sans-serif;
+    font-size: 16px;
+  }
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+}
+.header__valmynd{
+    display: flex;
+    flex-flow: row wrap;
+    widows: 100%;
+    max-width: 1440px;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+.header__tag{
+    display: flex;
+    margin-top: 10px;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.header__karfa{
+
+}

@@ -4,7 +4,9 @@
   "description": "Verkefnið felst í því að smíða vef eftir forskrift.",
   "main": "index.js",
   "scripts": {
-    "sass-watch": "node-sass --source-map-embed --watch styles.scss --recursive styles.css" 
+    "dev": "npm-run-all --parallel sass browser-sync",
+    "sass-watch": "node-sass --source-map-embed --watch styles.scss --recursive styles.css"
+   
   },
   "author": "",
   "license": "ISC",
