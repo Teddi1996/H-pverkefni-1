@@ -1,0 +1,31 @@
+@import "headerSkjal.scss";
+@import "footerSkjal.scss";
+@import "config.scss";
+
+// myndir //
+
+.cart__img{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cart__col{
+    display: flex;
+    align-items: flex-start;
+}
+
+.cart__content{
+    margin-left: 20px;
+}
+
+.send{
+    margin-left: 20px;
+}
+
+.greið{
+    margin-left:20px;
+}
+
+.cart__kaupa{
+    margin-left: 20px;
+}
