@@ -3,9 +3,9 @@
     <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
-            <title>Karfa</title>    
-            <link rel="stylesheet" href="grid.css">
-            <link rel="stylesheet" href="styles.css">
+            <title>karfa</title>    
+            <link rel="stylesheet" href="../grid.css">
+            <link rel="stylesheet" href="../styles.css">
     </head>
 
     <body>
@@ -20,27 +20,28 @@
                                     <li class="header__tag"><a href="./staff.html">Starfsfólk</a></li>                                
                             </ul>
                         </nav>
-                        <div class="header__karfa">
+                        <div class="header__cart">
                             <a href="./cart.html"><img src="../img/cart.svg" alt=""></a>
                             <a href="./cart.html"><span>Karfa(3)</span></a>
                         </div>
                     </div>
             </header>
+            
 
             <section>
-                <div class="karfa__row">
-                    <div class="karfa__col">
+                <div class="cart__row">
+                    <div class="cart__col">
                         <h2>Vörur í körfu</h2>
                     </div>
-                    <div class="karfa__col1">
-                        <div class="karfa__img">
+                    <div class="cart__col1">
+                        <div class="cart__img">
                             <img src="../img/watch.jpg">
                         </div>
                     </div>
-                    <div class="karfa_col2">
-                        <div class="karfa__content">
-                            <h2>Ótrúlegt úr</h2>
-                            <div class="karfa__text">
+                    <div class="cart_col2">
+                        <h2>Ótrúlegt úr</h2>
+                        <div class="cart__content">
+                                <div class="cart__text">
                                 <p>Hvað er klukkan þetta úr mun svara því hvenær sem er.</p>
                             </div>
                             <h3>99.900 kr.-</h3>
@@ -48,26 +49,34 @@
                                 Fjöldi:
                                 <input type="number">
                             </label>
-                            <div class="karfa__button">
-                                <button>Uppfæra</button>
+                            <div class="cart__button">
+                                <button>
+                                    <img class="button__img" src="../img/cart.svg">
+                                    Uppfæra
+                                </button>
                             </div>
-                            <div class="karfa__button">
-                                <button>Eyða úr körfu</button>
+                            <div class="cart__button">
+                                <button>
+                                    <img class="button__img" src="../img/cart.svg">
+                                    Eyða úr körfu
+                                </button>
                             </div>
                         </div>
                     </div>
-                    <div class="karfa__col">
+
+                    <div class="cart__col">
                         <h2>Vörur í körfu</h2>
                     </div>
-                    <div class="karfa__col1">
-                        <div class="karfa__img">
+                    <div class="cart__col1">
+                        <div class="cart__img">
                             <img src="../img/headphones.jpg">
                         </div>
                     </div>
-                    <div class="karfa_col2">
-                        <div class="karfa__content">
-                            <h2>Hágæða heyrnartól</h2>
-                            <div class="karfa__text">
+                    <div class="cart_col2">
+                        <h2>Hágæða heyrnartól</h2>
+                        <div class="cart__content">
+
+                            <div class="cart__text">
                                 <p>Þú munt ekki heyra neitt nema hágæða tónlist með þessum hágæða heyrnartólum. Höfum við minnst á að þau eru hágæða?</p>
                             </div>
                             <h3>39.900 kr.-</h3>
@@ -75,18 +84,25 @@
                                 Fjöldi:
                                 <input type="number">
                             </label>
-                            <div class="karfa__button">
-                                <button>Uppfæra</button>
+                            <div class="cart__button">
+                                <button>
+                                    <img class="button__img" src="../img/cart.svg">
+                                    Uppfæra
+                                </button>
                             </div>
-                            <div class="karfa__button">
-                                <button>Eyða úr körfu</button>
+                            <div class="cart__button">
+                                <button>
+                                    <img class="button__img" src="../img/cart.svg">
+                                    Eyða úr körfu
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="karfa__info">
-                    <div class="karfa__col3">
+
+                <div class="cart__info">
+                    <div class="cart__col3">
                         <h2>Sendingarupplýsingar</h2>
                         <div class="send">
                             <label for="Nafn">
@@ -286,7 +302,8 @@
                             </label>
                         </div>
                     </div>
-                    <div class="karfa__col4">
+                    
+                    <div class="cart__col4">
                         <h2>Greiðsluupplýsingar</h2>
                         <div class="greið">
                             <label for="Kortanúmer">
@@ -326,8 +343,64 @@
                             </select>
                         </div>
                     </div>
+                    
+                    <div class="cart__kaupa">
+                        <button>
+                            Kaupa
+                        </button>
+                    </div>
                 </div>
             </section>
+
+            <Footer>
+                <div class="footer__row">
+                    <div class="footer__col">
+                        <section class="footer__content">
+                            <h3>Vöruflokkar</h3>
+                            <ul class="footer__tags">
+                                <li class="footer__tag">Nauðsynjavörur</li>
+                                <li class="footer__tag">Frábærar vörur</li>
+                                <li class="footer__tag">Ómissandi vörur</li>
+                                <li class="footer__tag">Ótrúlegar vörur</li>
+                                <li class="footer__tag">Magnaðar vörur</li>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="footer__col">
+                        <section class="footer__content">
+                            <h3>Vöruflokkar</h3>
+                            <ul class="footer__tags">
+                                <li class="footer__tag">Trilltar vörur</li>
+                                <li class="footer__tag">Geggjaðar vörur</li>
+                                <li class="footer__tag">Svakalegar vörur</li>
+                                <li class="footer__tag">Fáranlegar vörur</li>
+                                <li class="footer__tag">Klikkaðar vörur</li>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="footer__col">
+                        <section class="footer__content">
+                            <h3>Vöruflokkar</h3>
+                            <ul class="footer__tags">
+                                <li class="footer__tag">Nýjar vörur</li>
+                                <li class="footer__tag">Gamlar vörur</li>
+                                <li class="footer__tag">Skrítnar vörur</li>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="footer__col">
+                        <section class="footer__content">
+                            <h3>Síður</h3>
+                            <ul class="footer__tags">
+                                <li class="footer__tag">Allar vörur</li>
+                                <li class="footer__tag">Starfsfólk</li>
+                                <li class="footer__tag">Ótrúlegar vörur</li>
+                                <li class="footer__tag">Magnaðar vörur</li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+            </Footer>
         </main>
     </body>
 </html>

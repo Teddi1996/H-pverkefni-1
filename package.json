@@ -6,11 +6,11 @@
   "scripts": {
     "dev": "npm-run-all --parallel sass browser-sync",
     "sass-watch": "node-sass --source-map-embed --watch styles.scss --recursive styles.css"
-   
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "all": "0.0.0",
     "node-sass": "^4.9.4"
   }
 }
