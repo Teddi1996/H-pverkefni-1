@@ -1,0 +1,51 @@
+@import "config.scss";
+
+footer{
+    display: flex;
+    background-color: $lightRed;
+}
+
+.footer__row{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin: 20px auto;
+}
+
+.footer___col{
+    display: flex;
+    padding-left: 10px;
+}
+
+.footer__list{
+    margin-top: 10px;
+    color: $lightYellow;
+}
+
+.footer__content{
+    flex-direction: column;
+}
+
+.footer__tags{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__tag{
+    margin-top: 10px;
+}
+
+.footer__tag a{
+    color: $lightYellow; // kannski aukadrasl?
+}
+
+@media (min-width: 500px){
+    .footer__row{
+        flex-flow: row wrap;
+    }
+
+    .footer__col{
+        width: 50%;
+    }
+}
