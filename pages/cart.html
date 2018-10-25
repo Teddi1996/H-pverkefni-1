@@ -26,44 +26,35 @@
                         </div>
                     </div>
             </header>
-            
+          
 
-            <section>
-                <div class="cart__row">
-                    <div class="cart__col">
-                        <h2>Vörur í körfu</h2>
-                    </div>
-                    <div class="cart__col1">
-                        <div class="cart__img">
-                            <img src="../img/watch.jpg">
-                        </div>
-                    </div>
-                    <div class="cart_col2">
-                        <h2>Ótrúlegt úr</h2>
-                        <div class="cart__content">
-                                <div class="cart__text">
-                                <p>Hvað er klukkan þetta úr mun svara því hvenær sem er.</p>
-                            </div>
-                            <h3>99.900 kr.-</h3>
-                            <label for="Fjöldi">
-                                Fjöldi:
-                                <input type="number">
-                            </label>
-                            <div class="cart__button">
-                                <button>
-                                    <img class="button__img" src="../img/cart.svg">
-                                    Uppfæra
-                                </button>
-                            </div>
-                            <div class="cart__button">
-                                <button>
-                                    <img class="button__img" src="../img/cart.svg">
-                                    Eyða úr körfu
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+<!-- Þarf að laga HTML 
+     Notum bara cart__row & cart__col 
+     ekki cart__col, cart__col1, cart__row, cart__row1 --> 
 
+		<section class="cart"> 
+			<div class="cart__row"> 
+				<div class="cart__col">
+					<h2>Vörur í körfu</h2>
+					<div class="cart_image"> 
+						<img class="cart__img" src="../img/watch.jpg"> 
+					</div>
+					<h2> Ótrúlegt úr </h2>
+					<div class="cart__content">
+						<div class="cart__text">
+							<p>Hvað er klukkan ? Þetta úr mun svara því hvenær sem er.</p> 
+						</div>
+						<h3>99.900-</h3>
+					</div>
+						<label for="Fjoldi">Fjöldi</label>
+					<div class="cart__row"> 
+							<input class="Fjoldi" type="number" min="1">
+							<button><img class="button__img" src="../img/cart.svg">Uppfæra</button>
+							<button><img class="button__img" src="../img/cart.svg">Eyða úr körfu</button>
+					</div>
+				</div>
+			</div>
+ 
                     <div class="cart__col">
                         <h2>Vörur í körfu</h2>
                     </div>
@@ -113,9 +104,9 @@
                                 Heimilisfang:
                                 <input type="text">
                             </label>
-                            <label for="Póstnúmer">
+                            <label for="Postnumer">
                                 Póstnúmer:
-                                <select class="Póstnúmer">
+                                <select class="Postnumer">
                                     <option>-Velja póstnúmer-</option>
                                       <option>101 Reykjavík</option>
                                       <option>103 Reykjavík</option>
@@ -305,7 +296,7 @@
                     
                     <div class="cart__col4">
                         <h2>Greiðsluupplýsingar</h2>
-                        <div class="greið">
+                        <div class="greida">
                             <label for="Kortanúmer">
                                 Kortanúmer:
                                 <input type="number">
