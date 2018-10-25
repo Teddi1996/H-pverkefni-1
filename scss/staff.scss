@@ -3,6 +3,25 @@
 .card {
 	padding: 15px;
 }
+.card__info{
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	visibility: hidden;
+	transition: .5s ease;
+	background-color: $white;
+	margin: auto;
+	justify-content: center;
+	align-content: center;
+}
+.card:hover .card__info{
+	visibility: visible;
+	opacity: 1;
+}
+
+.card:hover .card__image{
+	visibility: hidden;
+}
 
 @media (min-width: 1000px) {
 	.cards {
