@@ -5,12 +5,18 @@ footer{
     background-color: $lightRed;
 }
 
+footer h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
 .footer__row{
     display: flex;
     flex-direction: column;
 
     width: 100%;
-    margin: 20px auto;
+    margin-left: 20px;
 }
 
 .footer___col{
@@ -34,10 +40,20 @@ footer{
 
 .footer__tag{
     margin-top: 10px;
+    color: $lightYellow;
+    list-style: none;
 }
 
 .footer__tag a{
     color: $lightYellow; // kannski aukadrasl?
+}
+
+.footer__row::after{
+    content: "\00a9 2018 Vöruhúsið";
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
 
 @media (min-width: 500px){
