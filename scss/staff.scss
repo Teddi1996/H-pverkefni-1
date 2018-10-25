@@ -1,19 +1,43 @@
 @import 'config.scss';
 
+.cards {
+	display: flex;
+	flex-wrap: wrap; 
+	justify-content: space-around;
+	background: #eee;
+}
+
 .card {
+	display: flex;
+	flex-direction: column;
+	width: 100%; 
+	height: 100%;
 	padding: 15px;
+	overflow: hidden;
 }
-.card__info{
-	position: absolute;
-	width: inherit;
-	height: inherit;
-	visibility: hidden;
-	transition: .5s ease;
-	background-color: $white;
-	margin: auto;
+
+.card__content {
+	display: flex;
+	flex-direction: column;
+	max-height: 100%; 
 	justify-content: center;
-	align-content: center;
 }
+
+.card__info{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	width: 100%;
+	visibility: hidden;
+	/*transition: .5s ease;*/
+	background-color: $white;
+}
+
+.card__info p {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .card:hover .card__info{
 	visibility: visible;
 	opacity: 1;
@@ -31,9 +55,11 @@
 	}
 
 	.card {
-		display: flex;
 		width: 50%;
 	}
 
+	.card__info {
+		width: 50%;
+	}
 }
 
