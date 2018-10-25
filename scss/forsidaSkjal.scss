@@ -1,6 +1,6 @@
 @import "config.scss";
 
-.forsida__row{
+.forsíða__row{
     display: flex;
     flex-direction: column;
 
@@ -10,30 +10,32 @@
     background-color: $white;
 }
 
-.forsida__col{
+.forsíða__col{
     display: flex;
     flex-flow: column;
 
     width: 100%;
     justify-content: center;
-    margin-left: 15px;
-    margin: 10px;
+    margin-top: 10px;
 }
 
-.forsida__text{
+.forsíða__col:nth-child(odd){
+    margin-left: 20px;
+}
+
+.forsíða__text{
     font-size: 1.2em;
     margin: 20px 0;
 }
 
-.forsida__col h2{
+.forsíða__col h2{
     margin: 0px;
 }
 
-.forsida__button{
-    margin: 20px auto;
+.forsíða__button{
 }
 
-.forsida__button button{
+.forsíða__button button{
     width: 250px;
     height: 40px;  
     border: none;
@@ -43,4 +45,19 @@
 
 .reverse{
     flex-flow: column;
+}
+
+
+@media(min-width: 799px){
+    .forsíða__row{
+        display: flex;
+        flex-flow: row;
+    }
+    .forsíða__col{
+        width: 50%;
+    }
+
+    .forsíða__row:nth-child(even){
+        flex-flow: row-reverse;
+    }
 }
