@@ -3,29 +3,53 @@
 @import "config.scss";
 
 // myndir //
+.cart {
+	margin-right: 20px;
+	margin-left: 20px;
+}
 
-.cart__img{
-    margin-left: 20px;
-    margin-right: 20px;
+.cart__img {
+	width: 100%;
 }
 
 .cart__col{
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
 }
 
+.cart__row {
+	display: flex;
+}
+
 .cart__content{
-    margin-left: 20px;
 }
 
 .send{
-    margin-left: 20px;
 }
 
-.greið{
+.greida{
     margin-left:20px;
 }
 
 .cart__kaupa{
     margin-left: 20px;
 }
+
+.cart__row button {
+	background-color: transparent;
+	border: 1px solid #000;
+	margin: 0 10px 0 0;
+}
+
+.cart__row input {
+	background-color: transparent;
+	border: 1px solid #000;
+	appearance: none;
+	margin-right: 10px;
+}
+
+.cart__row button:hover {
+	background-color: #000;
+}
+
