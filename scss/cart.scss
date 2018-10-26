@@ -14,6 +14,11 @@
     align-items: flex-start;
 }
 
+.cart__input__col{
+    display: flex;
+    flex-flow: row wrap;
+}
+
 // content //
 .cart__content{
     margin-left: 20px;
@@ -31,8 +36,74 @@
 
 // Input col //
 
-.cart__input__col{
-    display: flex;
-    align-items: 
+.cart__input{
+    display: flex;  
+    flex-flow: row wrap;
+    margin-right: 20%;
 }
 
+.cart__input input{
+    display: flex;
+    flex-flow: column;
+    margin-right: 0;
+    height: 40px; 
+}
+
+.cart__button{
+    width: 25%;
+    margin-left: 2%;
+}
+
+.cart__button button:hover{
+    background-color: $lightRed;
+}
+
+// texti //
+
+h2{
+    padding-left: 20px;
+}
+
+// button //
+
+button{
+    background-color: $white;
+    border-radius: 3px;
+    border: 1px solid $black;
+    display: flex;
+    margin-top: 20px;
+    height: 40px;
+    margin-left: 0;   
+}
+
+
+.cart__kaupa{ 
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.cart__kaupa button{
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    width: 250px;
+    background-color: #cc9694;
+    justify-content: center;
+}
+
+
+// sendingarupplýsingar //
+
+.cart__send{
+    flex-direction: column;
+}
+
+.send{
+    flex-flow: column;
+}
+
+.info{
+    flex-flow: row;
+}
