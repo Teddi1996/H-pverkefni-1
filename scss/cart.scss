@@ -3,79 +3,107 @@
 @import "config.scss";
 
 // myndir //
-.cart {
-	margin-right: 20px;
-	margin-left: 20px;
+.cart__img{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.cart__img {
-	width: 100%;
-}
-
+// columns //
 .cart__col{
     display: flex;
-    flex-direction: column;
-    width: 100%;
     align-items: flex-start;
 }
 
-.cart__greida {
-	display: flex;
-	flex-direction: column;
+.cart__input__col{
+    display: flex;
+    flex-flow: row wrap;
 }
 
-.cart__row {
-	display: flex;
-}
-
-.cart__row button {
-	background-image: url('../img/cart.svg');
-	background-repeat: no-repeat;
-	background-position: left;
-	padding-left: 20px;
-}
-
-.cart__form {
-	display: flex;
-	flex-direction: row; 
-}
+// content //
 .cart__content{
-}
-
-.send{
-}
-
-.greida{
-    margin-left:20px;
-}
-
-.cart__kaupa{
     margin-left: 20px;
 }
 
-.cart__form {
-	margin-bottom: 20px;
+// sendingarupplýsingar //
+.send{
+    margin-left: 20px;
 }
 
-.cart__form button {
-	background-color: transparent;
-	border: 1px solid #000;
-	margin: 0 10px 0 0;
+// greiðsluupplýsingar //
+.greið{
+    margin-left:20px;
 }
 
-.cart__form input {
-	background-color: transparent;
-	border: 1px solid #000;
-	appearance: none;
-	margin-right: 10px;
+// Input col //
+
+.cart__input{
+    display: flex;  
+    flex-flow: row wrap;
+    margin-right: 20%;
 }
 
-.cart__form button:hover {
-	background-color: #000;
+.cart__input input{
+    display: flex;
+    flex-flow: column;
+    margin-right: 0;
+    height: 40px; 
 }
 
-@media (min-width: 1000px) {
-	.cart__greida {
-		flex-direction: row;
-	}
+.cart__button{
+    width: 25%;
+    margin-left: 2%;
+}
+
+.cart__button button:hover{
+    background-color: $lightRed;
+}
+
+// texti //
+
+h2{
+    padding-left: 20px;
+}
+
+// button //
+
+button{
+    background-color: $white;
+    border-radius: 3px;
+    border: 1px solid $black;
+    display: flex;
+    margin-top: 20px;
+    height: 40px;
+    margin-left: 0;   
+}
+
+
+.cart__kaupa{ 
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.cart__kaupa button{
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    width: 250px;
+    background-color: #cc9694;
+    justify-content: center;
+}
+
+
+// sendingarupplýsingar //
+
+.cart__send{
+    flex-direction: column;
+}
+
+.send{
+    flex-flow: column;
+}
+
+.info{
+    flex-flow: row;
 }
