@@ -5,6 +5,7 @@ header{
     flex-direction: column;
     background-color: $lightGreen;
 }
+
 .header__valmynd{
     display: flex;
     flex-flow: row wrap;
@@ -57,11 +58,20 @@ header{
         justify-content: space-between; // Virkar ekki skolun
     }
 
+    header{
+        justify-content: center;
+    }
+    header h1{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .header__cart{
 
     }
 
     nav{
-        margin-left: 31%; // Virkar Ekki Skala
+        margin-left: auto;
+        margin-right: auto;
     }
 }
