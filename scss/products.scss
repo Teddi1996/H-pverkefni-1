@@ -1,0 +1,57 @@
+@import "config.scss";
+
+.vörur__row{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.vörur__row:nth-child(odd){
+    margin-top: 40px;
+}
+
+.vörur__row:nth-child(even){
+    margin-bottom: 40px;
+}
+
+.vörur__col{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.vörur__button{
+    margin-left: 10px;
+    height: 40px;
+}
+
+.vörur__button p{
+    margin-left: 5px;
+}
+
+.vörur__col button{
+    display: flex;
+    border-radius: 5px;
+    height: 40px;
+    border: 1px solid $black;
+    background-color: $white;
+    align-items: center;
+}
+
+.vörur__col button img{
+    width: 10%;
+    height: inherit;
+    margin-left: 10px;
+}
+
+.testtest{
+    display: flex;
+    width: 100%;
+}
+
+.testtest input{
+    height: 40px;
+    width: 340px;
+    z-index: 1;
+    border-radius: 5px;
+    border: 1px solid $black;
+}
