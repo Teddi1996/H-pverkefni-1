@@ -43,6 +43,12 @@
     background-color: $lightRed; 
 }
 
+.forsíða__button button:hover{
+    background-color: $black;
+    color: $white;
+    transition-delay: 0.1s; 
+}
+
 .reverse{
     flex-flow: column;
 }

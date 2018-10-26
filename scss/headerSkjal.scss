@@ -6,6 +6,10 @@ header{
     background-color: $lightGreen;
 }
 
+header h1{
+    align-self: center;
+}
+
 .header__valmynd{
     display: flex;
     flex-flow: row wrap;
@@ -50,6 +54,11 @@ header{
 
 .header__cart a{
     text-decoration: none;
+    color: $black;
+}
+
+.header__tag:hover a{
+    color: $white;
 }
 
 @media(min-width: 799px){
