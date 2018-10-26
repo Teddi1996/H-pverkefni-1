@@ -3,29 +3,31 @@
 @import "config.scss";
 
 // myndir //
-
 .cart__img{
     margin-left: 20px;
     margin-right: 20px;
 }
 
+// columns //
 .cart__col{
     display: flex;
     align-items: flex-start;
 }
 
+// content //
 .cart__content{
     margin-left: 20px;
 }
 
+// sendingarupplýsingar //
 .send{
     margin-left: 20px;
 }
 
+// greiðsluupplýsingar //
 .greið{
     margin-left:20px;
 }
 
-.cart__kaupa{
-    margin-left: 20px;
-}
+// button image //
+
