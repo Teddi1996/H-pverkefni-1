@@ -106,4 +106,27 @@ button{
 
 .info{
     flex-flow: row;
+    margin-bottom: 4px;
+}
+
+.cart__greið{
+    margin-left: 20px;
+}
+
+.cart__greið h2{
+    margin-left: -20px;
+}
+
+// 800px //
+
+@media(min-width: 800px){
+    .cart__img{
+        width: 25%;
+    }
+
+    .cart__col{
+        display: flex;
+        flex-flow: row;
+    }
+
 }
