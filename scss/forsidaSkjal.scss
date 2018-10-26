@@ -30,6 +30,7 @@
 
 .forsíða__col h2{
     margin: 0px;
+    margin-left: -20px;
 }
 
 .forsíða__button{
@@ -40,7 +41,8 @@
     height: 40px;  
     border: none;
     border-radius: 5px;
-    background-color: $lightRed; 
+    background-color: $lightRed;
+    justify-content: center; 
 }
 
 .forsíða__button button:hover{
